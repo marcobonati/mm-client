@@ -4,6 +4,10 @@
 /dist
 /tmp
 /out-tsc
+/app-builds
+/release
+main.js
+src/**/*.js
 
 # dependencies
 /node_modules
