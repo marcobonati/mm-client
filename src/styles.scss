@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+$font-main:    'Roboto', sans-serif;
+$font-main-size:     5rem;
+
+$color-background-main: black;
+$color-foreground-main: white;
+
+body {
+  font-family: $font-main;
+  font-weight: lighter;
+  background-color: $color-background-main;
+  color: $color-foreground-main;
+  font-size: $font-main-size;
+}

@@ -27,7 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/roboto-fontface/css/roboto/sass/roboto-fontface.scss",
+              "node_modules/roboto-fontface/css/roboto-condensed/sass/roboto-condensed-fontface.scss",
+              "node_modules/roboto-fontface/css/roboto-slab/sass/roboto-slab-fontface.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true
