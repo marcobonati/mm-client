@@ -6,6 +6,7 @@
     "name": "Marco Bonati",
     "email": "marco.bonati@gmail.com"
   },
+  "description": "Magic Mirror Client",
   "keywords": [
     "angular",
     "angular 7",
@@ -15,6 +16,7 @@
     "magic mirror"
   ],
   "scripts": {
+    "electron:build":"electron-builder build --config electron-builder.json --mac",
     "postinstall": "npm run postinstall:electron && electron-builder install-app-deps",
     "postinstall:web": "node postinstall-web",
     "postinstall:electron": "node postinstall",

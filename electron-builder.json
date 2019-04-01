@@ -21,19 +21,16 @@
       "!tslint.json"
     ],
   "win": {
-    "icon": "graphics",
     "target": [
       "portable"
     ]
   },
   "mac": {
-    "icon": "graphics",
     "target": [
       "dmg"
     ]
   },
   "linux": {
-    "icon": "graphics",
     "target": [
       "AppImage"
     ]
